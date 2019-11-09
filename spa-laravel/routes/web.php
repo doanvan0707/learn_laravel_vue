@@ -12,3 +12,6 @@
 */
 
 Route::get('/{any}', 'SinglePageController@index')->where('any', '.*');
+Route::post('/image/store', 'SinglePageController@store');
+
+Route::get('/test-axios', 'SinglePageController@testAxios');

@@ -7,6 +7,7 @@
                 <router-link tag="li" to="/">Home</router-link>
                 <router-link tag="li" to="/about">About</router-link>
                 <router-link tag="li" to="/image">Upload image</router-link>
+                <router-link tag="li" to="/products">Products</router-link>
                 <router-view></router-view>
             </v-container>
         </v-content>
